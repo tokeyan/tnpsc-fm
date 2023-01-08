@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/start.css">
+    <link rel="stylesheet" href="./css/quiz.css">
+    <title>fm quiz</title>
+</head>
+<body>
+    <div class="container">
+        <div id="game" class="justify-center flex-coloum">
+            <div id="hud">
+                <div class="hud-item">
+                       <p  class="hud-prefix" id="progress-text"></p> 
+                </div>
+                <div class="hud-item">
+                    <p class="hud-prefix">
+                        score
+                    </p>
+                    <h1 class="hud-main-text" id="score">
+                        0
+                    </h1>
+                </div>
+            </div>
+
+            <div id="question"></div>
+                <div class="choice-container">
+                    <p class="choice-prefix">A.</p>
+                    <p class="choice-text" data-number="1">option1</p>
+                </div>
+                <div class="choice-container">
+                    <p class="choice-prefix">B.</p>
+                    <p class="choice-text" data-number="2">option 2</p>
+                </div>
+                <div class="choice-container">
+                    <p class="choice-prefix">C.</p>
+                    <p class="choice-text" data-number="3">option 3</p>
+                </div>
+                <div class="choice-container">
+                    <p class="choice-prefix">D.</p>
+                    <p class="choice-text" data-number="4">option 4</p>
+               </div>
+        </div>
+
+        <div id="answer">
+            
+        </div>
+     <a href="fb.html" id="cmt">Comments</a>
+
+    </div>
+    <script src="./js/start.js"></script>
+</body>
+</html>

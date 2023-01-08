@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #fff;
+    color: #000;
+}
+.choice-container {
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 90%;
+    border-radius: 4px;
+    background-color: #ccc;
+    font-size: 2.2rem;
+    min-width: 60rem;
+    box-shadow: 0 0.4px 1px 0 rgba(0,0,0,0.222);
+}
+.choice-container:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: transform 100ms;
+}
+.choice-prefix {
+    padding: 1.2rem 0.8rem;
+}
+.choice-text {
+    padding: 1rem;
+    width: 100%;
+}
+.correct {
+    background: linear-gradient(32deg, rgba(11,223,36)0%, rgb(41,232,111)100%);
+}
+.incorrect {
+    background: linear-gradient(32deg, rgba(230,29,29,1)0%, rgb(224,11,11,1)100%);
+}
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+.hud-main-text {
+    text-align: center;
+}
+#question {
+   padding: 1.5rem 0;
+   font-size: 2.3rem;
+}
+@media screen and (max-width:768px) {
+    .choice-container {
+        display: flex;
+        margin-bottom: 0.5rem;
+        width: 90%;
+        border-radius: 4px;
+        background-color: #ccc;
+        font-size: 1.2rem;
+        min-width: 17rem;
+        box-shadow: 0 0.4px 1px 0 rgba(0,0,0,0.222);
+    }
+    .choice-container:hover {
+        cursor: pointer;
+        transform: scale(1.02);
+        transition: transform 100ms;
+    }
+ 
+    .choice-text {
+        width: 100%;
+    }
+    .correct {
+        background: linear-gradient(32deg, rgba(11,223,36)0%, rgb(41,232,111)100%);
+    }
+    .incorrect {
+        background: linear-gradient(32deg, rgba(230,29,29,1)0%, rgb(224,11,11,1)100%);
+    }
+    #hud {
+        display: flex;
+        justify-content: space-between;
+    }
+    .hud-prefix {
+        text-align: center;
+        font-size: 1rem;
+    }
+    .hud-main-text {
+        text-align: center;
+    }
+   
+    #question {
+       padding: 1.2rem 0;
+       font-size: 1rem;
+    }
+}

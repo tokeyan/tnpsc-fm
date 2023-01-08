@@ -1,0 +1,62 @@
+.mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.mail-box {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.123);
+    margin-top: 6rem;
+}
+.inputs {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+}
+button {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    background-color: cornflowerblue;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin-bottom: 3px;
+    font-weight: 550;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3 {
+    margin-top: 4px;
+    text-align: center;
+}
+textarea {
+    resize: none;
+    height: 8rem;
+    border: 1px solid #000;
+    outline: none;
+    padding: 1rem;
+    margin-top: 5px;
+    border-radius: 5px;
+    color: #000;
+}
+input {
+    border: 1px solid #000;
+    border-radius: 3px;
+    outline: none;
+    padding: 10px;
+    color: #000;
+}
+
+footer {
+    margin-top: 5rem;
+}
